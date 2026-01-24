@@ -6,7 +6,7 @@ function NavBar() {
             <div id='logo'>
 
             </div>
-            <div id='nav-bar'>
+            <div id='links'>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
