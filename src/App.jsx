@@ -100,6 +100,22 @@ function FAQ() {
     )
 }
 
+function Carousel() {
+    return (
+        <div>
+
+        </div>
+    )
+}
+
+function Credits() {
+    return (
+        <div>
+            <Carousel></Carousel>
+        </div>
+    )
+}
+
 function App() {
     return (
         <>
@@ -107,6 +123,7 @@ function App() {
             <About></About>
             <Sponsors></Sponsors>
             <FAQ></FAQ>
+            <Credits></Credits>
         </>
     )
 }
