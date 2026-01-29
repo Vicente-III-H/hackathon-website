@@ -36,15 +36,29 @@ function Hero() {
     )
 }
 
+function StatCard({ number, stat }) {
+    return (
+        <div className='flexbox-col-center'>
+            <p>{number}</p>
+            <p>{stat}</p>
+        </div>
+    )
+}
+
 function About() {
     return (
         <div id='About' className='flexbox-col-center'>
-            <h1>About</h1>
+            <div>
+                <h1>About</h1>
             <p>Join a bunch of people doing a bunch of things this Hackathon event! There is a bunch of awesome stuff to do and cool prizes to win! Join one of the most unknown and niche Hackathons ever! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
             <div>
                 <img src={about1} width={360} height={240}></img>
                 <img src={about2} width={360} height={240}></img>
                 <img src={about3} width={360} height={240}></img>
+            </div>
+            <div>
+                <StatCard number={1} stat={"Hackers"}></StatCard>
             </div>
         </div>
     )
