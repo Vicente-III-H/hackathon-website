@@ -18,18 +18,25 @@ function NavBar() {
     )
 }
 
+function Hero() {
+    return (
+        <div className='flexbox'>
+            <div className='flex'>
+                <h1>fishyHacks</h1>
+                <p>Dive into a new world!</p>
+                <button>Apply Now</button>
+            </div>
+            <div className='flex'>
+
+            </div>
+        </div>
+    )
+}
+
 function App() {
     return (
         <>
-            <div id='foreground'>
-                <NavBar></NavBar>
-            </div>
-            <div id='content'>
-
-            </div>
-            <div id='background'>
-
-            </div>
+            <Hero></Hero>
         </>
     )
 }
