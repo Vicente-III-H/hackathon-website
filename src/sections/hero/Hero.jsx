@@ -1,3 +1,5 @@
+import { heroImages } from "../../images";
+
 function Hero() {
     return (
         <div id='Hero' className='flexbox'>
@@ -7,7 +9,7 @@ function Hero() {
                 <button>Apply Now</button>
             </div>
             <div className='flex'>
-
+                <img src={heroImages[0]} height={360} width={360}></img>
             </div>
         </div>
     )

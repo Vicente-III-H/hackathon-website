@@ -1,3 +1,10 @@
+// HERO IMAGES
+import submersible from './assets/graphics/submersible.png'
+
+const heroImages = [
+    submersible
+];
+
 // ABOUT IMAGES
 import about1 from './assets/about/about-1.jpg'
 import about2 from './assets/about/about-2.jpg'
@@ -37,6 +44,7 @@ const smallLogos = [
 
 // EXPORT
 export {
+    heroImages,
     aboutImages,
     largeLogos,
     smallLogos
