@@ -1,9 +1,9 @@
 // HERO IMAGES
 import submersible from './assets/graphics/submersible.png'
 
-const heroImages = [
+const heroImages = {
     submersible
-];
+};
 
 // ABOUT IMAGES
 import about1 from './assets/about/about-1.jpg'

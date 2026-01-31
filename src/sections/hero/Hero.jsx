@@ -9,7 +9,7 @@ function Hero() {
                 <button>Apply Now</button>
             </div>
             <div className='flex'>
-                <img src={heroImages[0]} height={360} width={360}></img>
+                <img src={heroImages.submersible} height={360} width={360}></img>
             </div>
         </div>
     )
