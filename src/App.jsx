@@ -1,5 +1,6 @@
 import './App.css'
 import { aboutImages, largeLogos, smallLogos } from './images'
+import { SectionHeading, StatCard, Accordion, Carousel } from './components/components'
 
 function NavBar() {
     return (
