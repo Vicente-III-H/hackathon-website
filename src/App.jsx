@@ -1,15 +1,6 @@
 import './App.css'
 import { aboutImages, largeLogos, smallLogos } from './images'
 
-function SectionHeading({ title, description }) {
-    return (
-        <div>
-            <h1>{title}</h1>
-            <p>{description}</p>
-        </div>
-    )
-}
-
 function NavBar() {
     return (
         <nav>
@@ -43,15 +34,6 @@ function Hero() {
     )
 }
 
-function StatCard({ number, stat }) {
-    return (
-        <div className='flexbox-col-center'>
-            <p>{number}</p>
-            <p>{stat}</p>
-        </div>
-    )
-}
-
 function About() {
     return (
         <div id='About' className='flexbox-col-center'>
@@ -78,17 +60,6 @@ function Sponsors() {
     )
 }
 
-function Accordion({ title, description }) {
-    return (
-        <div>
-            <button>{title}</button>
-            <div>
-                <p>{description}</p>
-            </div>
-        </div>
-    )
-}
-
 function FAQ() {
     return (
         <div>
@@ -96,14 +67,6 @@ function FAQ() {
             <div>
                 <Accordion title={'Is this a question?'} description={'Yes.'}></Accordion>
             </div>
-        </div>
-    )
-}
-
-function Carousel() {
-    return (
-        <div>
-
         </div>
     )
 }
