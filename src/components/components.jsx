@@ -37,7 +37,11 @@ function SponsorLogo({ type, logo }) {
             return null;
     }
 
-    return <img src={logo} width={logoSize.width} height={logoSize.height}></img>
+    return (
+        <a href='#Sponsors'>
+            <img src={logo} width={logoSize.width} height={logoSize.height}></img>
+        </a>
+    )
 }
 
 function Accordion({ title, description }) {
