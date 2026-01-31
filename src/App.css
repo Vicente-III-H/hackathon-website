@@ -16,3 +16,7 @@
 .flex {
     flex: 1;
 }
+
+#root {
+    background: linear-gradient(180deg, #65B9E9, #297BCF, #153E69);
+}
