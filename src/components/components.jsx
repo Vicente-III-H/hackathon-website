@@ -18,6 +18,28 @@ function StatCard({ number, stat }) {
     )
 }
 
+function SponsorLogo({ type, logo }) {
+    let logoSize;
+    switch (type) {
+        case 'large':
+            logoSize = {
+                width: 500,
+                height: 100
+            };
+            break;
+        case 'small':
+            logoSize = {
+                width: 50,
+                height: 50
+            };
+            break;
+        default:
+            return null;
+    }
+
+    return <img src={logo} width={logoSize.width} height={logoSize.height}></img>
+}
+
 function Accordion({ title, description }) {
     return (
         <div>
@@ -40,6 +62,7 @@ function Carousel() {
 export {
     SectionHeading,
     StatCard,
+    SponsorLogo,
     Accordion,
     Carousel
 };
