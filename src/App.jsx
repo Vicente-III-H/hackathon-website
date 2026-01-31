@@ -14,10 +14,10 @@ function NavBar() {
             </div>
             <div id='links'>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Sponsors</a></li>
-                    <li><a href="">FAQ</a></li>
+                    <li><a href="#Hero">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Sponsors">Sponsors</a></li>
+                    <li><a href="#FAQ">FAQ</a></li>
                 </ul>
             </div>
         </nav>
@@ -38,7 +38,7 @@ function Sponsors() {
 
 function FAQ() {
     return (
-        <div className='flexbox-col-center'>
+        <div id='FAQ' className='flexbox-col-center'>
             <SectionHeading title={'FAQ'} description={'Frequently asked questions!'}></SectionHeading>
             <div>
                 <Accordion title={'Is this a question?'} description={'Yes.'}></Accordion>
@@ -58,6 +58,7 @@ function Credits() {
 function App() {
     return (
         <>
+            <NavBar></NavBar>
             <Hero></Hero>
             <About></About>
             <Sponsors></Sponsors>

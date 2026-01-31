@@ -7,6 +7,8 @@
   color: hsl(0, 0%, 100%);
   background-color: #297BCF;
 
+  scroll-behavior: smooth;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
