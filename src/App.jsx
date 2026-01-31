@@ -40,7 +40,7 @@ function Hero() {
 
 function Sponsors() {
     return (
-        <div id='Sponsors'>
+        <div id='Sponsors' className='flexbox-col-center'>
             <SectionHeading title={'Sponsors'} description={'Become a sponsors! This is also a placeholder paragraph (well more like text...)'}></SectionHeading>
             <div id='sponsor-list'>
                 <div id='large-logos'>{largeLogos.map((logo) => <img key={logo} src={logo} width={500} height={100}></img>)}</div>
@@ -52,7 +52,7 @@ function Sponsors() {
 
 function FAQ() {
     return (
-        <div>
+        <div className='flexbox-col-center'>
             <SectionHeading title={'FAQ'} description={'Frequently asked questions!'}></SectionHeading>
             <div>
                 <Accordion title={'Is this a question?'} description={'Yes.'}></Accordion>
@@ -63,7 +63,7 @@ function FAQ() {
 
 function Credits() {
     return (
-        <div>
+        <div className='flexbox-col-center'>
             <Carousel></Carousel>
         </div>
     )
