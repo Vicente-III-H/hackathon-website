@@ -1,3 +1,4 @@
+/* LAYOUT CLASSES */
 .flexbox {
     display: flex;
 }
@@ -15,6 +16,23 @@
 
 .flex {
     flex: 1;
+}
+
+/* TEXT CLASSES */
+.heading,
+.body-text {
+    text-align: center;
+    margin: 0;
+}
+
+.heading {
+    font-size: 72px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.body-text {
+    font-size: 18px;
 }
 
 #root {
