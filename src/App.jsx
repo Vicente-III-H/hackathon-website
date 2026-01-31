@@ -58,7 +58,6 @@ function Credits() {
 function App() {
     return (
         <>
-            <NavBar></NavBar>
             <Hero></Hero>
             <About></About>
             <Sponsors></Sponsors>

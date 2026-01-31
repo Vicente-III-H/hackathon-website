@@ -4,7 +4,7 @@ function SectionHeading({ title, description }) {
     return (
         <div className='section-heading'>
             <h1 className="heading">{title}</h1>
-            <p className="body-text">{description}</p>
+            <p className="section-text">{description}</p>
         </div>
     )
 }

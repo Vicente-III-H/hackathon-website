@@ -20,9 +20,13 @@
 
 /* TEXT CLASSES */
 .heading,
-.body-text {
+.section-text {
     text-align: center;
-    margin: 0;
+}
+
+.title {
+    font-size: 72px;
+    font-weight: 700;
 }
 
 .heading {
@@ -31,7 +35,7 @@
     margin-bottom: 12px;
 }
 
-.body-text {
+.section-text {
     font-size: 20px;
 }
 

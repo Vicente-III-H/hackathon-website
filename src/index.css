@@ -1,33 +1,47 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
 
-  color-scheme: light dark;
-  color: hsl(0, 0%, 100%);
-  background-color: #297BCF;
+    color-scheme: light dark;
+    color: hsl(0, 0%, 100%);
+    background-color: #65B9E9;
 
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  align-items: stretch;
-  min-width: 320px;
-  min-height: 100vh;
+    margin: 0;
+    display: flex;
+    place-items: center;
+    align-items: stretch;
+    min-width: 320px;
+    min-height: 100vh;
 }
 
 #root {
-  margin: 0;
-  padding: 0;
-  flex: 1;
-  
-  position: relative;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+
+    position: relative;
+}
+
+/* RESETS */
+p, h1, h2 {
+    margin: 0;
+}
+
+button {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin: 0;
+    border-width: 0;
+    padding: 0;
 }
